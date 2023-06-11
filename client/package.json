@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite --config ./vite.config.ts",
-    "build": "tsc && vite build --config ./vite.config.ts"
+    "build": "tsc && vite build --config ./vite.config.ts",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
