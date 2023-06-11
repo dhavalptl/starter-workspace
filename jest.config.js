@@ -6,6 +6,11 @@ export default {
             {
                 jsc: {
                     target: "es2021",
+                    "transform": {
+                        "react": {
+                            "runtime": "automatic"
+                        }
+                    },
                 },
             },
         ],

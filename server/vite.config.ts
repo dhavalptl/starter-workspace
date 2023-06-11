@@ -12,7 +12,7 @@ export default defineConfig({
         output: {
             entryFileNames: `server.js`
         },
-        external: ['express']
+        external: ['express', 'pino']
       },
   }
 })

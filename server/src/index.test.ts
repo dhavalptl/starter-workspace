@@ -1,5 +1,5 @@
 describe('Server', () => {
-    it('start', () => {
-        expect(true).toBe(true)
-    })
+  it('start', () => {
+    expect(true).toBe(true);
+  });
 });

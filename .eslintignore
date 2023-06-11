@@ -1,0 +1,10 @@
+client/public
+**/.eslintrc.cjs
+**/jest.config.js
+index.html
+*.json
+**/vite.config.ts
+node_modules
+client/node_modules
+server/node_modules
+mocks

@@ -1,7 +1,8 @@
-import baseJestConfig from '../jest.config.js'
+import baseJestConfig from '../jest.config.js';
 
 export default {
-    ...baseJestConfig,
-    testEnvironment: "jsdom",
-    rootDir: "./src"
-}
+  ...baseJestConfig,
+  testEnvironment: 'jsdom',
+  rootDir: './src',
+  setupFilesAfterEnv: ['<rootDir>/setup.ts']
+};
